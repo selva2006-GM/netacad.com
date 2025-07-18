@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .app{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 2%;
+            padding: 5%;
+        }
+        .app .box{
+            background: #666;
+            padding: 5%;
+            aspect-ratio:1/1
+        }
+        .down{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .down .ldown{
+            width: 4vh;
+            height: 1vh;
+            background: black;
+            transform: rotate(-45deg);
+            transform-origin: right;
+            position: absolute;
+            margin-right: -1vh;
+
+        }
+        .down .rdown{
+            width: 4vh;
+            height: 1vh;
+            background: black;
+            transform: rotate(45deg);
+            transform-origin: left;
+            position: absolute;
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <div class="app">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div> -->
+    <div class="down">
+        <div class="ldown"></div>
+        
+        <div class="rdown"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,296 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+}
+
+.headerContainer{
+    padding:  0% 2%;
+    width: 100%;
+    height: 10%;
+}
+.header-panels{
+    display: flex;
+    width: 96%;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerLeft--u{
+    display: flex;
+    margin: 0vh 0vh 0vh 4vh;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+.headerPanel--gxPVi-left,.headerPanel--gxPVi-right{
+    display: flex;
+    align-items: center;
+}
+.exploreMenuBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    border: 1px solid black;
+    border-radius: 0.6vh;
+    padding: 0.8% 10% 0.8% 1.5% ;
+    margin: 0vh 4vh 0vh 0vh;
+    gap: 10px;
+    
+}
+.explore{
+    margin-right: 1vh;
+}
+.menuSeparator{
+    background:#666 ;
+    width: 0.2vh;
+    height: 3vh;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.3vh;
+    padding: 10%;
+    max-width: 1.03%;
+    max-height: 20%;
+    margin: 0vh 3.29vh 0vh 0vh;
+}
+.app .box{
+    background: #666;
+    padding: 0.3vh;
+    aspect-ratio:1/1
+}
+ .down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0vh 0vh 0vh 2vh;
+    transform: scale(0.5);
+    align-items: center;
+}
+
+.down .ldown{
+    width: 2vh;
+    height: 0.3vh;
+    background: black;
+    transform: rotate(-45deg);
+    transform-origin: right;
+    position: absolute;
+
+}
+.down .rdown{
+    width: 2vh;
+    height: 0.3vh;
+    background: black;
+    transform: rotate(45deg);
+    transform-origin: left;
+    position: absolute;
+    margin-left: -2vh;
+}  
+.search{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 1px solid #666;
+    border-radius: 3px;
+   padding: 0px 0px 0px 18px;
+}
+
+#search-input{
+    height: 100%;
+    padding: 11px 8px 11px 18px;
+    border: none;
+}
+#search-input:focus {
+  outline: none;
+}
+.material-symbols-outlined{
+    font-size: 10px;
+}
+.dropdown{
+    padding: 0px 25px 0px 10px;
+    background: #fafafa;
+    display: flex;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: 10.4px;
+    margin-left: -2px;
+}
+.DROP{
+    display: flex;
+    align-items: center;
+}
+.loginbtn{
+    border: 1px solid black;
+    margin: 0xp 0px 0px 8px;
+    padding:0px 25px;
+}
+#teach,#partner,#en,#quest,#notifi{
+    padding: 0px 8px;
+}
+
+.sectionBannerBg{
+    background-image: url(newLandingBannerBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 40px 108.625px 100px;
+    
+}
+.row{
+    display:flex;
+    
+}
+.banner{
+    width: 100%;
+    height: 90%;
+}
+.col{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.col1{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.marketBanner{
+    margin: 20px 0px 30px;
+    padding: 5px 25px;
+    border: 1px solid #666;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.flexb{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 30px 0px 0px 0px;
+}
+.sectionTitle{
+    margin: 0px 0px 20px;
+    font-family:sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 1.40;
+}
+.sectionDesc{
+    margin: 8px 0px 20px;
+}
+.startlearningbtn,.ExploreSubbtn{
+    padding: 10px 40px ;
+    border: 1px solid #6abf4b;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px 0px 0px 0px ;
+}
+.startlearningbtn,.ExploreSubbtn:hover{
+    background: #6abf4b;
+}
+.bannerCtaBlcok{
+    margin: 30px 10px 0px 0px;
+}
+.bannerWrapper{
+    padding: 0% 5%;
+}
+.sfa_stats_banner{
+    padding: 1.47vh 01vh;
+    margin: -60px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 0.5px solid #d2d0d0;
+    background: #fff;
+    border-radius: 10px;
+    align-items: flex-start;
+    width: 190vh;
+
+}
+.stats_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  
+    padding: 10px;
+
+}
+.flexdivider{
+    width:0.2vh;
+    height: 8vh;
+    background: #666;
+    margin: 30px 20px;
+}
+.stats_title{
+    font-size:26px;
+
+}
+.stats_desc{
+    margin: 4px 0px 0px;
+  
+}
+.sectionQuote{
+    margin: -60px 0px 0px ;
+    padding: 150px 0px 60px;
+}
+.qouteContentBlock{
+    align-items: center;
+    text-align: center;
+}
+.quoteicon{
+    border: 1px solid #666;
+    padding: 12px ;
+    border-radius: 50px;
+
+}
+.quoteTitle{
+    text-align: center;
+    font-size: 60px;
+    margin: 15px 0px 8px;
+    font-size: 100;
+}
+.text-size-16{
+    margin: 0% 20%;
+    font-size: 29px;
+}
+.horizontalSeparator{
+   border: none;
+    height: 2px;
+    width: 10%; 
+    margin: 20px auto; 
+    background: #6abf4b;
+    padding: 3px;
+}
+.sectionSubjectArea{
+    padding: 10% 15%;
+    align-items: center;
+    text-align: center;
+}
+.subjectAreaBlock{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 1fr;
+    justify-content: center;
+}
+#lastcard{
+    grid-column: 2/span 2;
+    justify-content: center;
+}
